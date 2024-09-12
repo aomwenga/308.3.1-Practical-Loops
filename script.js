@@ -7,7 +7,7 @@
 // If a number is not divisible by either 3 or 5, log the number.
 
 for (let i = 1; i <= 100; i++) {
-    if (i % 15 === 0) {
+    if (i % 5 === 0 && i % 3 === 0) {
         console.log("Fizz Buzz");
     } else if (i % 3 === 0) {
         console.log("Fizz");
